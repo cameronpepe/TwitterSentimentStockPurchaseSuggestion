@@ -1,0 +1,38 @@
+<div class="fade-in one">
+<h1 class="text-center">Results for  <span class="blueword">{{value}}</span> stock</h1>
+</div>
+<br>
+<div class="rattle">
+    <div ng-show="showYes">
+        <h2 class="slam first">YES</h2>
+    </div>
+    <div ng-show="showNo">
+        <h2 class="slam first">NO</h2>
+    </div>
+    <div ng-show="showMaybe">
+        <h2 class="slam first">Maybe?</h2>
+    </div>
+</div>
+<hr class="col-xs-12 fade-in one">
+<br><br>
+<div class="row text-center">
+    <div class="col-sm-4  fade-in three">
+        <h3><strong>Long Term Results</strong></h3>
+        <h4 class="percent slam second">{{long_conf}}%</h4>
+        <h5>Confident that you should <span class="blueword">{{buy_long}} {{value}}</span> stock based on long term Twitter trends</h5>
+    </div>
+    <div class="col-sm-4  fade-in four">
+        <h3><strong>Mid Term Results</strong></h3>
+        <h4 class="percent slam third">{{mid_conf}}%</h4>
+         <h5>Confident that you should <span class="blueword">{{buy_mid}} {{value}}</span> stock based on mid term Twitter trends</h5>
+    </div>
+    <div class="col-sm-4  fade-in five">
+        <h3><strong>Short Term Results</strong></h3>
+        <h4 class="percent slam fourth">{{short_conf}}%</h4>
+        <h5>Confident that you should <span class="blueword">{{buy_short}} {{value}}</span> stock based on short term Twitter trends</h5>
+    </div>
+</div>
+<br><br><br>
+<div class="text-center animate-flicker six">
+    <a href="#"><h5 class="blueword">Analyze another company?</h5></a>
+</div>

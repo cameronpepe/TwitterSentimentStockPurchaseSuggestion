@@ -1,0 +1,14 @@
+{
+  "name": "load_stock_data",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "alpha-vantage-cli": "^1.0.8",
+    "alphavantage": "^1.2.0",
+    "aws-sdk": "^2.358.0",
+    "moment": "^2.22.2",
+    "mysql": "^2.16.0"
+  }
+}
